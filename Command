@@ -1,0 +1,6 @@
+1. Running miniedit :
+cd /lib/python2.7/dist-packages/mininet/examples
+sudo python2 miniedit.py
+
+2. Running Topo :
+

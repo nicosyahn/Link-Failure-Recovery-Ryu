@@ -1,0 +1,18 @@
+Mininet Installation :
+sudo apt install mininet #install
+mn --version #check ver
+sudo mn --switch ovsbr --test pingall #test
+git clone https://github.com/mininet/mininet #clone component
+mininet/util/install.sh -f #install openflow
+mininet/util/install.sh -p #install pox
+
+If Mininet complains that Open vSwitch isn’t working, make sure it is installed and running:
+sudo apt-get install openvswitch-switch
+sudo service openvswitch-switch start
+
+Ryu Installation :
+git clone git://github.com/osrg/ryu.git #clone component
+git config --global url."https://".insteadOf git:// #if git clone error
+python3 ./ryu/setup.py install #install component
+sudo pip3 install --upgrade ryu #upgrade for fix error
+
