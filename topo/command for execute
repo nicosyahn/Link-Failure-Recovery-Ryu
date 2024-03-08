@@ -1,0 +1,1 @@
+sudo mn -c && sudo python3 fat_tree.py
