@@ -1,0 +1,1 @@
+clear && sudo ryu-manager ryu_linkfailure_dfs.py ../flowmanager/flowmanager.py ryu.app.ofctl_rest --observe-links --ofp-tcp-listen-port 6633
