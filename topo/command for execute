@@ -1,1 +1,2 @@
-sudo mn -c && sudo python3 fat_tree.py
+sudo mn -c && sudo python2 fat_tree_p2.py #if using python 2
+sudo mn -c && sudo python3 fat_tree_p3.py #if using python 3
