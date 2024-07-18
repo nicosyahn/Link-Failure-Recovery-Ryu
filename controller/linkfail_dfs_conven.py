@@ -37,7 +37,7 @@ REFERENCE_BW = 10000000
 
 DEFAULT_BW = 10000000
 
-MAX_PATHS = 6
+MAX_PATHS = 1
 
 idle_time=3000
 
@@ -99,7 +99,7 @@ class ProjectController(app_manager.RyuApp):
     def get_optimal_paths(self, src, dst):
         paths = self.get_paths(src, dst)
         paths_count = len(paths) if len(paths) < MAX_PATHS else MAX_PATHS
-        return sorted(paths, key=lambda x: self.get_path_cost(x))[5:(paths_count)]
+        return sorted(paths, key=lambda x: self.get_path_cost(x), reverse=True)[0:(paths_count)]
 
     def add_ports_to_paths(self, paths, first_port, last_port):
         paths_p = []
