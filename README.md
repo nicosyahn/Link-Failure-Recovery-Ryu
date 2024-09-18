@@ -12,3 +12,5 @@ Programming Language : Python 2.7.18 dan Python 3.8.10
 Controller           : Ryu Controller 4.34
 
 Emulator             : Mininet 2.3.0.dev6
+
+Special thanks for original source : https://github.com/ahmedabdulwhhab/SDN-RYU-Mininet-Path/tree/main/multi-path/Del_Flow_Entries_except_Miss_Flow
