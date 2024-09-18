@@ -7,7 +7,7 @@ Virtual Machine      : Oracle VM VirtualBox 7.0.8
 
 Operating System     : Lubuntu 20.04
 
-Programming Language : Python 3.8.10
+Programming Language : Python 2.7.18 dan Python 3.8.10
 
 Controller           : Ryu Controller 4.34
 
